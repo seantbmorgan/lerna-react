@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Amazon Corretto\jdk11.0.5_10\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\Users\Sean Morgan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;C:\Users\Sean Morgan\AppData\Local\Google\Chrome\Application\chrome.exe;C:\ProgramData\chocolatey\bin;C:\Program Files\PostgreSQL\12\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Sean Morgan\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Sean Morgan\AppData\Local\Programs\Python\Python38-32\;C:\Users\Sean Morgan\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sean Morgan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sean Morgan\AppData\Roaming\npm;C:\Users\Sean Morgan\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin;
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Sean Morgan\Desktop\Development\Lerna\react-nest-boilerplate\package.json: Unexpected token } in JSON at position 157
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "scripts": {
+      "start": "cd packages && cd react-app && yarn start",
+      "bootstrap":"lerna bootstrap --hoist",
+    },
+    "devDependencies": {
+      "lerna": "^3.20.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

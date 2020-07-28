@@ -1,0 +1,6 @@
+{
+  "name": "@stbm-react/button",
+  "version": "0.0.0",
+  "main": "Button.js",
+  "license": "MIT"
+}

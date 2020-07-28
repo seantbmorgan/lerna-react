@@ -1,0 +1,6 @@
+{
+  "name": "@stbm-react/card",
+  "version": "0.0.0",
+  "main": "Card.js",
+  "license": "MIT"
+}
